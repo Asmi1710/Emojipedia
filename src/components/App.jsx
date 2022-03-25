@@ -26,18 +26,10 @@ function App() {
     <div>
       <h1>
         <span>emojipedia</span>
+        <p> The science of emotions</p>
       </h1>
       <dl className="dictionary">
         {emoji.map(createEntry)}
-
-        {emoji.map((emoji) => (
-          <Entry
-            key={emoji.id}
-            emoji={emoji.emoji}
-            name={emoji.name}
-            mean={emoji.meaning}
-          />
-        ))}
 
         {/* <div className="term">
           <dt>

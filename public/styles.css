@@ -20,6 +20,12 @@ h1 span {
   background: #2ec2b0;
 }
 
+h1 p {
+  font-weight: 900;
+  font-size: 50%;
+  font-family: "Lobster", cursive;
+  background-color: #5b7db1;
+}
 .dictionary {
   display: flex;
   flex-wrap: wrap;
